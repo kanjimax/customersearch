@@ -1,6 +1,6 @@
 import React from 'react';
 
-class SearchResults extends React.Component{
+class C03searchResults extends React.Component{
   render(){
     return(
       <div>Results</div>
@@ -8,4 +8,4 @@ class SearchResults extends React.Component{
   }
 }
 
-export default SearchResults;
+export default C03searchResults;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-class CustomerDetail extends React.Component{
+class C04customerDetails extends React.Component{
   render(){
     return(
       <div>Customer</div>
@@ -8,4 +8,4 @@ class CustomerDetail extends React.Component{
   }
 }
 
-export default CustomerDetail;
+export default C04customerDetails;

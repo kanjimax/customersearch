@@ -17,7 +17,7 @@ const styles = {
   focused: {
   }
 }
-class Searchfield extends React.Component{
+class C02searchBar extends React.Component{
   render(){
     const {classes} = this.props;
     return (
@@ -35,4 +35,4 @@ class Searchfield extends React.Component{
 
 }
 
-export default withStyles(styles)(Searchfield);
+export default withStyles(styles)(C02searchBar);
