@@ -20,11 +20,15 @@ class C01start extends React.Component {
         <Switch>
           <Redirect exact from="/" to="/search" />
           <Route
-            path="/search"
-            render={({ history, location }) => (
+            path={['/search/:id', '/search']}
+            render={({ history, location, match }) => (
               <div>
                 <C02searchBar />
-                <C03searchResults history={history} location={location} />
+                <C03searchResults
+                  history={history}
+                  location={location}
+                  match={match}
+                />
               </div>
             )}
           />
